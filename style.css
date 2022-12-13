@@ -1,0 +1,143 @@
+body
+{
+    background-color: rgba(0, 152, 253, 0.288);
+    font-family: 'Baloo Tamma 2', cursive;
+    position:centre;
+   
+
+}
+h1
+{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    margin-left: 500px;
+    position:centre;
+   
+}
+
+.iType
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    position: absolute; visibility: visible; left: 200px; top: 150px;
+    margin-left: 400px;
+ 
+
+}
+.iNum
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:blanchedalmond;
+    width: 240px;
+    font-size: 25px;
+    text-align: center;
+    border: 4px solid black;
+    position: absolute; visibility: visible; left: 280px; top: 148px; 
+    margin-left: 400px;
+ 
+}
+.iNum:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+.btn
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgba(247, 3, 3, 0.801);
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor:pointer;
+    position: absolute; visibility: visible; left: 355px; top: 230px;
+    margin-left: 385px;
+  
+    
+}
+.btn:hover
+{
+    background-color: rgba(146, 3, 3, 0.829);
+    transition: 0.5s;
+    
+}
+.button
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgba(247, 3, 3, 0.801);
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor:pointer;
+    position:relative; visibility: visible; left: 355px; top: 230px;
+    margin-left: 380px;
+   
+}
+.button:hover
+{
+    background-color: rgba(146, 3, 3, 0.829);
+    transition: 0.5s;
+}
+.oType
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    position: absolute; visibility: visible; left: 200px; top: 300px;
+    margin-left: 400px;
+    
+}
+.oNum
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    color:blue;
+    background-color:blanchedalmond;
+    width: 240px;
+    font-size: 25px;
+    text-align: center;
+    border: 4px solid black;
+    position: absolute; visibility: visible; left: 280px; top: 298px; 
+    margin-left: 400px;
+    
+}
+.oNum:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+@media (max-width: 768px) {
+    h1 {
+        width: 60%;
+    }
+    p {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}

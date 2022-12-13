@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Conversion</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head> 
+<body>
+<br>
+   <p>
+    <h1>Number System Conversion</h1>
+    <select class="iType" id="ipType">
+        <option value="ipbin"selected>Binary</option>
+        <!-- <option value="ophex">Hexadecimal</option> -->
+        <option value="ipoct">Octal</option>
+        <!-- <option value="opdec">Decimal</option> -->
+        <option value="ipdec">Decimal</option>
+        <!-- <option value="opbin">Binary</option> -->
+
+        <option value="iphex">Hexadecimal</option>
+   <!--      <option value="opoct">Octal</option> -->
+    </select>
+    <input class="iNum" id="ipNum">
+    <button class="btn" onclick="convert()">CONVERT</button>
+        <button class="button"onclick="swapit()">Swap</button>
+
+    <select class="oType" id="opType">
+        <!-- <option value="opbin"selected>Binary</option> -->
+        <option value="ipdec"selected>Decimal</option>
+        <!-- <option value="opoct"selected>Octal</option> -->
+        <option value="iphex">Hexadecimal</option>
+      <!--   <option value="opdec"selected>Decimal</option> -->
+        <option value="ipoct">Octal</option>
+     <!--    <option value="ophex"selected>Hexadecimal</option> -->
+        <option value="ipbin">Binary</option>
+    </select>
+
+</br>
+</br>
+    <input class="oNum" id="opNum">
+   </p>
+
+</body>
+<script src="/script.js"></script>
+</html>
